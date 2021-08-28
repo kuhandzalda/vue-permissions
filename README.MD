@@ -5,8 +5,6 @@ Kuhandza Vue Permissions
 ## Features
 
 - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API and [URI Templates](https://medialize.github.io/URI.js/uri-template.html)
-- Supports [interceptors](docs/http.md#interceptors) for request and response
-- Supports latest Firefox, Chrome, Safari, Opera and IE9+
 - Supports Vue 2.0
 
 ## Installation
@@ -30,7 +28,7 @@ Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0), [un
 
 ## Changelog
 
-Details changes for each release are documented in the [release notes](https://github.com/pagekit/vue-permissions/releases).
+Details changes for each release are documented in the [release notes](https://github.com/kuhandzalda/vue-permissions/releases).
 
 ## License
 
