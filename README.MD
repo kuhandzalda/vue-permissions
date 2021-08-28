@@ -17,9 +17,9 @@ $ npm install vue-permissions
 ```
 
 ### CDN
-Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-permissions@1.5.3), [unpkg](https://unpkg.com/vue-permissions@1.5.3) or [cdnjs](https://cdnjs.com/libraries/vue-permissions).
+Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0), [unpkg](https://unpkg.com/vue-permissions@1.0.0) or [cdnjs](https://cdnjs.com/libraries/vue-permissions).
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.3"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0"></script>
 ```
 
 ## Documentation
