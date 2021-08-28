@@ -1,0 +1,14 @@
+{
+    "name": "vue-permissions",
+    "version": "1.0.0",
+    "description": "Kuhandza Vue Permissions",
+    "main": "index.js",
+    "repository": "https://github.com/kuhandzalda/vue-permissions.git",
+    "author": "support@kuhandza.com",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "js-cookie": "^3.0.0",
+        "vue": "^2.0"
+    }
+}
