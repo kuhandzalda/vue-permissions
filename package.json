@@ -4,6 +4,7 @@
     "description": "Kuhandza Vue Permissions",
     "main": "index.js",
     "repository": "https://github.com/kuhandzalda/vue-permissions.git",
+    "keywords": ["vuejs", "vue", "permissions", "api", "roles", "guards", "router"],
     "author": "support@kuhandza.com",
     "license": "MIT",
     "dependencies": {
