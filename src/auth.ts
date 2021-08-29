@@ -2,18 +2,23 @@ import axios from 'axios';
 import cookies from 'js-cookie';
 
 export class Auth {
-    constructor(baseUrl = '/auth') {
+
+    constructor(public baseUrl: string = '/auth') {
         this.baseUrl = baseUrl.charAt(baseUrl.length - 1) === '/' ?
             baseUrl.slice(0, -1) :
             baseUrl;
     }
-    $reset = (url = null) => url ? cookies.remove(`@${this.baseUrl}/${url}`) :
-        (this.$reset(`user`),
-            this.$reset(`roles`),
-            this.$reset(`role`),
-            this.$reset(`permissions`))
 
-    getData = async(url) => {
+    $reset(url?: string) {
+
+        url ? cookies.remove(`@${this.baseUrl}/${url}`) :
+        (this.$reset('user'),
+            this.$reset('roles'),
+            this.$reset('role'),
+            this.$reset('permissions'))
+        } 
+
+        async getData(url: string) {
         const _data = cookies.get(`@${url}`) || null
         if (_data) {
             return JSON.parse(_data);
@@ -35,15 +40,15 @@ export class Auth {
     $role = async() => this.getData(`${this.baseUrl}/role`);
     $permissions = async() => this.getData(`${this.baseUrl}/permissions`);
 
-    userAsPermission = async(permission) => {
+    userAsPermission = async(permission: string) => {
         const permissions = await this.$permissions();
         return permissions.includes(permission);
     };
 
-    userAsAnyPermission = async(permissions) => {
+    userAsAnyPermission = async(permissions: Array<string>) => {
         const _permissions = await this.$permissions();
         let can = false;
-        permissions.forEach((permission) => {
+        permissions.forEach((permission: string) => {
             if (_permissions.includes(permission)) {
                 can = true;
                 return;

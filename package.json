@@ -1,16 +1,31 @@
 {
     "name": "khd-vue-permissions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Kuhandza Vue Permissions",
     "main": "index.js",
     "repository": "https://github.com/kuhandzalda/vue-permissions.git",
-    "keywords": ["vuejs", "vue", "permissions", "api", "roles", "guards", "router"],
+    "keywords": [
+        "vuejs",
+        "vue",
+        "permissions",
+        "api",
+        "roles",
+        "guards",
+        "router"
+    ],
+    "scripts": {
+        "build": "tsc -p ."
+    },
     "author": "support@kuhandza.com",
     "license": "MIT",
     "dependencies": {
+        "@types/js-cookie": "^2.2.7",
         "axios": "^0.21.1",
         "js-cookie": "^3.0.0",
-        "vue-router": "^3.4.9",
-        "vue": "^2.0"
+        "vue": "^2.0",
+        "vue-router": "^3.4.9"
+    },
+    "devDependencies": {
+        "typescript": "^4.4.2"
     }
 }
