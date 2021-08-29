@@ -1,7 +1,7 @@
 {
     "name": "khd-vue-permissions",
-    "version": "1.0.1",
-    "description": "Kuhandza Vue Permissions",
+    "version": "1.0.2",
+    "description": "Vuejs plugin to manage page access permissions",
     "main": "index.js",
     "repository": "https://github.com/kuhandzalda/vue-permissions.git",
     "keywords": [
@@ -14,7 +14,8 @@
         "router"
     ],
     "scripts": {
-        "build": "tsc -p ."
+        "build": "tsc -p .",
+        "test": "node tests/index.js"
     },
     "author": "support@kuhandza.com",
     "license": "MIT",

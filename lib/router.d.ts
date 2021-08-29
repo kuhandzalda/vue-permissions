@@ -1,8 +1,13 @@
 import VueRouter from "vue-router";
 export declare class Router {
-    redirectTo: string;
-    params: Object;
-    constructor(redirectTo: string, params: Object);
-    init(): VueRouter;
+    model: {
+        unauthorizedDefaultRedirect: string;
+        params: Object;
+    };
+    constructor(model: {
+        unauthorizedDefaultRedirect: string;
+        params: Object;
+    });
+    mount(): VueRouter;
 }
 //# sourceMappingURL=router.d.ts.map

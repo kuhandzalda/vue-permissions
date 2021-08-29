@@ -1,23 +1,24 @@
 ## About
-Kuhandza Vue Permissions
+Kuhandza Vue Permissions is Vuejs plugin to manage page access permissions
 
 
 ## Features
 
 - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API and [URI Templates](https://medialize.github.io/URI.js/uri-template.html)
 - Supports Vue 2.0
+- Supports Typescript
 
 ## Installation
 You can install it via [yarn](https://yarnpkg.com/) or [NPM](http://npmjs.org/).
 ```
-$ yarn add vue-permissions
-$ npm install vue-permissions
+$ yarn add khd-vue-permissions
+$ npm install khd-vue-permissions
 ```
 
 ### CDN
-Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0), [unpkg](https://unpkg.com/vue-permissions@1.0.0) or [cdnjs](https://cdnjs.com/libraries/vue-permissions).
+Available on [jsdelivr](https://cdn.jsdelivr.net/npm/khd-vue-permissions@1.0.0), [unpkg](https://unpkg.com/khd-vue-permissions@1.0.0) or [cdnjs](https://cdnjs.com/libraries/khd-vue-permissions).
 ```html
-<script src="https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/khd-vue-permissions@1.0.0"></script>
 ```
 
 ## Documentation
@@ -28,7 +29,7 @@ Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-permissions@1.0.0), [un
 
 ## Changelog
 
-Details changes for each release are documented in the [release notes](https://github.com/kuhandzalda/vue-permissions/releases).
+Details changes for each release are documented in the [release notes](https://github.com/kuhandzalda/khd-vue-permissions/releases).
 
 ## License
 
